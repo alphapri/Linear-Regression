@@ -51,8 +51,7 @@ print('-'*25)
 df = pd.DataFrame({'Actual': y_test, 'Predicted': y_pred})
 print(df)
 print('-'*25)
-print (X)
-print (Y)
+
 print('Evaluating the Algorithm')
 
 from sklearn import metrics
